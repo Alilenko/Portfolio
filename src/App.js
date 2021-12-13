@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Main } from './components/Main/Main';
+import Nav from './components/Nav/Nav';
+import {Route, Switch} from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
+import Project from './components/Project/Project';
+import About from './components/About/About';
+import Education from './components/Education/Education';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav/>
+
+          <Route render={({location}) => (
+              <TransitionGroup>
+                <CSSTransition
+                key={location.key}
+                timeout={500}
+                classNames='page'
+                mountOnEnter
+                unmountOnExit>
+                  <Switch location={location}>
+                    <Route exact path='/' component={Main}/>
+                    <Route exact path='/about' component={About}/>
+                    <Route exact path='/education' component={Education}/>
+                    <Route exact path='/project' component={Project}/>
+                  </Switch>
+                </CSSTransition>
+              </TransitionGroup>
+            )}>
+           </Route>
     </div>
+     
+    
   );
 }
 
