@@ -37,3 +37,7 @@
 .text p {
     margin: 0;
 }
+.text a {
+  color: #fff;
+  text-decoration: none;
+}
