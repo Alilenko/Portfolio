@@ -4,15 +4,17 @@ import './education.css';
 const Education = () => {
     return (
         <div className='about'>
-            <h2 className='title'>Educations</h2>
+            <h2 className='title'></h2>
             <div className='title_content'> 
-            
-                    <div className='text'><span>2021</span><a href='https://www.udemy.com/course/javascript_full/'>JavaScript + React.</a></div>
-                    <div className='text'><span>2021</span><a href='https://www.udemy.com/course/react-from-scratch/'> React для начинающих.</a> </div> 
-                    <div className='text'><span>2021</span><a href='https://www.udemy.com/course/webdeveloper/'> WEB-разработчик.</a> </div>
-                    <div className='text'><span>2021</span><a href='https://www.youtube.com/watch?v=wdViO9OcQzs&list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr&index=36'> Курс по JavaScript. </a></div>
-                    <div className='text'><span>2020</span><a href='https://www.youtube.com/watch?v=z3GS5oYGq5U&list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr&index=3'> Курс по верстке HTML,CSS. </a> </div>
+            <div className='subtitle'>Обучение</div>
+                    <div className='text'><span>2021</span><a href='https://www.udemy.com/course/javascript_full/'>Полный курс по JavaScript + React - Udemy</a></div>
+                    <div className='text'><span>2021</span><a href='https://www.udemy.com/course/react-from-scratch/'> React с нуля для начинающих - Udemy</a> </div> 
+                    <div className='text'><span>2021</span><a href='https://www.udemy.com/course/webdeveloper/'>WEB-разработчик 2021 - Udemy</a> </div>
+                    <div className='text'><span>2021</span><a href='https://www.youtube.com/watch?v=wdViO9OcQzs&list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr&index=36'> Курс по JavaScript. Фрилансер по жизни - IT и фриланc (HTML, JavaScript) - Youtube </a></div>
+                    <div className='text'><span>2020</span><a href='https://www.pluralsight.com/courses/html-fundamentals'> HTML Fundamentals - Pluralsight </a> </div>
+                    <div className='text'><span>2020</span><a href='https://www.youtube.com/watch?v=z3GS5oYGq5U&list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr&index=3'> Курс по верстке HTML,CSS. Фрилансер по жизни - IT и фриланc (HTML, JavaScript) - Youtube</a> </div>
                     </div>
+                    <br/>
             <div className='subtitle'>Высшее образование:</div>
                 <div className='text'>
                     <span>2017</span> "Криворожский национальный университет"

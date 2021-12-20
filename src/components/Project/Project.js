@@ -8,13 +8,13 @@ import hunger from '../../img/hunger.png'
 const Project = () => {
     return (
         <div className='skills'>
-               <h2 className='title'>Project</h2>
+               <h2 className='title'></h2>
                <div className='text'>
                 </div>
            <div className='card-row'>
            <div className="card">
                     <div className="card-image">
-                    <img src={shop}/>
+                    <img src={shop} alt='project1'/>
                     </div>
                     <div className="card-content">
                     <span className="card-title">Интернет магазин</span>
@@ -28,7 +28,7 @@ const Project = () => {
                 </div>
                 <div className="card">
                     <div className="card-image">
-                    <img src={todo}/>
+                    <img src={todo} alt='project2'/>
                     
                     </div>
                     <div className="card-content">
@@ -42,8 +42,8 @@ const Project = () => {
                      </div>
                 </div>
                 <div className="card">
-                    <div className="card-image">
-                    <img src={conv}/>
+                    <div className="card-image" >
+                    <img src={conv} alt='project3'/>
                     
                     </div>
                     <div className="card-content">
@@ -60,7 +60,7 @@ const Project = () => {
                 </div>
                 <div className="card">
                     <div className="card-image">
-                    <img src={hunger}/>
+                    <img src={hunger}  alt='project4'/>
                     
                     </div>
                     <div className="card-content">

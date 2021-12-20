@@ -1,11 +1,11 @@
 import React from 'react'
-import photo from '../../img/2.jpg'
+import myPhoto from '../../img/2.jpg'
 import './main.css';
 
 export const Main = () => {
     return (
         <div className='main'>
-            <img className='main__img' src={photo} alt='photo'/>
+            <img className='main__img' src={myPhoto} alt='my photo'/>
             <div className='main__content'>
                 <div className='about__content'>
             <h1 className='about_name'>Алина Павленко</h1>
