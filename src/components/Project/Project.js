@@ -4,6 +4,7 @@ import shop from '../../img/shop.png';
 import todo from '../../img/todo.png'
 import conv from '../../img/conv.png'
 import hunger from '../../img/hunger.png'
+import shopRedux from '../../img/ShopRedux.png'
 
 const Project = () => {
     return (
@@ -24,6 +25,26 @@ const Project = () => {
                     <div className='card-buttons'>
                         <a href='https://alilenko.github.io/TestShop/' className='link'>Посмотреть</a>
                         <a href='https://github.com/Alilenko/TestShop' className='link'>Посмотреть код</a>
+                     </div>
+                </div>
+                <div className="card">
+                    <div className="card-image">
+                    <img src={shopRedux} alt='project2'/>
+                    
+                    </div>
+                    <div className="card-content">
+                    <span className="card-title">Интернет магазин</span>
+                    <p>React+Redux Toolkit. Динамическое формирование карточки товаров и категорий.
+                        Фильтрация товаров по категориям.
+                        Поиск товаров на странице.
+                        SPA, две страницы: главная и корзина.
+                        Добавление и удаление товаров из корзины.
+                        Добавление и удаление количества товаров.
+                        Формирование общей стоимости товаров. </p>
+                    </div>
+                    <div className='card-buttons'>
+                        <a href='https://alilenko.github.io/ShopReduxToolkit/' className='link'>Посмотреть</a>
+                        <a href='https://github.com/Alilenko/ShopReduxToolkit' className='link'>Посмотреть код</a>
                      </div>
                 </div>
                 <div className="card">
