@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4b975ffd.chunk.css",
-    "main.js": "/Portfolio/static/js/main.f1399840.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.f1399840.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.f97cbf3d.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.f97cbf3d.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c65a14fc.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c65a14fc.js.map",
     "static/js/2.ba3a4f8e.chunk.js": "/Portfolio/static/js/2.ba3a4f8e.chunk.js",
@@ -11,6 +11,7 @@
     "static/css/main.4b975ffd.chunk.css.map": "/Portfolio/static/css/main.4b975ffd.chunk.css.map",
     "static/js/2.ba3a4f8e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ba3a4f8e.chunk.js.LICENSE.txt",
     "static/media/2.3368244f.jpg": "/Portfolio/static/media/2.3368244f.jpg",
+    "static/media/ShopRedux.77d68b31.png": "/Portfolio/static/media/ShopRedux.77d68b31.png",
     "static/media/about.c4d28694.jpg": "/Portfolio/static/media/about.c4d28694.jpg",
     "static/media/about2.b0125fca.jpg": "/Portfolio/static/media/about2.b0125fca.jpg",
     "static/media/about3.cd7aa7a5.jpg": "/Portfolio/static/media/about3.cd7aa7a5.jpg",
@@ -23,6 +24,6 @@
     "static/js/runtime-main.c65a14fc.js",
     "static/js/2.ba3a4f8e.chunk.js",
     "static/css/main.4b975ffd.chunk.css",
-    "static/js/main.f1399840.chunk.js"
+    "static/js/main.f97cbf3d.chunk.js"
   ]
 }
