@@ -79,6 +79,11 @@
     transform: scale(1.1);
     color: rgb(255, 255, 255);
   }
+  .main__button{
+    text-align: center;
+    max-width: 270px;
+    margin: 0 auto;
+  }
   @media(max-width: 767px){
       .main{
           flex-direction: column;

@@ -1,5 +1,6 @@
 import React from 'react'
 import myPhoto from '../../img/2.jpg'
+
 import './main.css';
 
 export const Main = () => {
@@ -19,6 +20,8 @@ export const Main = () => {
                     <a href='https://www.instagram.com/alilenko__/' className='about_link'><i className="fab fa-instagram"></i></a>
                     <a href='https://t.me/Alilenko' className='about_link'><i className="far fa-paper-plane"></i></a>
                 </div>
+                <div className='card-buttons main__button'>
+                        <a href='https://drive.google.com/file/d/14NWOe0Yy1Wx3zRcWUACllwP75V9Y9_td/view?usp=sharing' className='link'>Резюме</a></div>
                 </div>
             </div>
         </div>
