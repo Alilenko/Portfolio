@@ -15,20 +15,6 @@ const Project = () => {
            <div className='card-row'>
            <div className="card">
                     <div className="card-image">
-                    <img src={shop} alt='project1'/>
-                    </div>
-                    <div className="card-content">
-                    <span className="card-title">Интернет магазин</span>
-                    <p>React+Redux. приложение в котором реализованно: Получение товаров с помощью fetch запроса. Динамическое формирование карточки товаров. Поиск товаров на странице. Добавление и удаление товаров из корзины и количества. Формирование общей стоимости товаров. </p>
-
-                    </div>
-                    <div className='card-buttons'>
-                        <a href='https://alilenko.github.io/TestShop/' className='link'>Посмотреть</a>
-                        <a href='https://github.com/Alilenko/TestShop' className='link'>Посмотреть код</a>
-                     </div>
-                </div>
-                <div className="card">
-                    <div className="card-image">
                     <img src={shopRedux} alt='project2'/>
                     
                     </div>
@@ -47,6 +33,21 @@ const Project = () => {
                         <a href='https://github.com/Alilenko/ShopReduxToolkit' className='link'>Посмотреть код</a>
                      </div>
                 </div>
+           <div className="card">
+                    <div className="card-image">
+                    <img src={shop} alt='project1'/>
+                    </div>
+                    <div className="card-content">
+                    <span className="card-title">Интернет магазин</span>
+                    <p>React+Redux. приложение в котором реализованно: Получение товаров с помощью fetch запроса. Динамическое формирование карточки товаров. Поиск товаров на странице. Добавление и удаление товаров из корзины и количества. Формирование общей стоимости товаров. </p>
+
+                    </div>
+                    <div className='card-buttons'>
+                        <a href='https://alilenko.github.io/TestShop/' className='link'>Посмотреть</a>
+                        <a href='https://github.com/Alilenko/TestShop' className='link'>Посмотреть код</a>
+                     </div>
+                </div>
+
                 <div className="card">
                     <div className="card-image">
                     <img src={todo} alt='project2'/>
