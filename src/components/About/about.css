@@ -26,9 +26,7 @@
 }
 .about__content {
     margin: 10px 20px; 
-    max-width: 600px;
-    margin: 10px 20px; 
-    
+    max-width: 600px; 
 }
 .about__content p {
     padding: 10px;
@@ -46,6 +44,9 @@
 @media(max-width: 767px){
     .text_content{
         flex-direction: column;
+    }
+    .about__content{
+        margin: 10px 0;
     }
     .about__img{
         width: 100%;

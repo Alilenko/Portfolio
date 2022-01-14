@@ -15,7 +15,7 @@ const Project = () => {
            <div className='card-row'>
            <div className="card">
                     <div className="card-image">
-                    <img src={shopRedux} alt='project2'/>
+                   {shopRedux ? <img src={shopRedux} alt='project2'/> : <h5>Loading</h5>}
                     
                     </div>
                     <div className="card-content">
@@ -109,3 +109,4 @@ const Project = () => {
 }
 
 export default Project
+

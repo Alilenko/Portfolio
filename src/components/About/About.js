@@ -11,14 +11,14 @@ const About = () => {
             <div className='text'> 
             <div className='text_content'>
                 <div className='about__content'>
-                    <div className='about__subtitle'>Обо мне</div>
+                <div className='about__subtitle'>Обо мне</div>
                     <p>Я очень ответственный человек, и всегда стараюсь выполнять работу качественно и с максимальной отдачей. 
                     Я люблю учится, Я получаю огромное удовольствие когда изучаю новые интересные сферы для меня.
                     Всегда стараюсь выполнять свои обещания.
                     Я очень спокойный, уравновешенный, стрессоустойчивый и неконфликтный человек.</p> 
                 </div>  
                 <img className='about__img' src={about2} alt='about'/></div>
-            <div className='text_content img__two'>
+                <div className='text_content img__two'>
                 <img className='about__img ' src={about}  alt='about'/>
                 <div className='about__content'>
                 <div className='about__subtitle'>Про обучение </div> 
@@ -26,18 +26,19 @@ const About = () => {
                 <br/>
                 <p>Также у меня был период когда я изучала тестирование ПО, но со временем я поняла что для мне это не интересно.  В процессе обучения я узнала про методологии разработки, что такое баги, их классификации, как выглядят тест кейсы и баг репорты и много чего другого, это позволило мне больше узнать об ИТ сфере, не только со стороны разработчика.</p>
                 </div>
-            </div>
+                </div>
             <div className='text_content'>
                 <div className='about__content'>
                     <p>У меня за спинной длительный процесс обучения, и я знаю что мне еще многому нужно научится, и если честно, это меня вдохновляет!</p>
                     <br/>
                     <p>Мои цели на ближайшее время это продолжить изучать React совершенствуя свои навыки, получить опыт работы на реальных проектах,  углубится в изучение английского языка, что бы легко общаться с коллегами и заказчиками.</p></div>
-                
-                <img className='about__img' src={about3}  alt='about'/>
-            </div>
+            <img className='about__img' src={about3}  alt='about'/>
             </div>  
+            </div>
             </div>
     )
 }
+
+
 
 export default About
