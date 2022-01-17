@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e4f9d672.chunk.css",
-    "main.js": "/Portfolio/static/js/main.94b8d5c8.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.94b8d5c8.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.5a8c04d2.chunk.css",
+    "main.js": "/Portfolio/static/js/main.7d5ba551.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7d5ba551.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c65a14fc.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c65a14fc.js.map",
     "static/js/2.ba3a4f8e.chunk.js": "/Portfolio/static/js/2.ba3a4f8e.chunk.js",
     "static/js/2.ba3a4f8e.chunk.js.map": "/Portfolio/static/js/2.ba3a4f8e.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.e4f9d672.chunk.css.map": "/Portfolio/static/css/main.e4f9d672.chunk.css.map",
+    "static/css/main.5a8c04d2.chunk.css.map": "/Portfolio/static/css/main.5a8c04d2.chunk.css.map",
     "static/js/2.ba3a4f8e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ba3a4f8e.chunk.js.LICENSE.txt",
     "static/media/2.3368244f.jpg": "/Portfolio/static/media/2.3368244f.jpg",
-    "static/media/ShopRedux.77d68b31.png": "/Portfolio/static/media/ShopRedux.77d68b31.png",
-    "static/media/about.c4d28694.jpg": "/Portfolio/static/media/about.c4d28694.jpg",
-    "static/media/about2.b0125fca.jpg": "/Portfolio/static/media/about2.b0125fca.jpg",
-    "static/media/about3.cd7aa7a5.jpg": "/Portfolio/static/media/about3.cd7aa7a5.jpg",
-    "static/media/conv.ad9e827e.png": "/Portfolio/static/media/conv.ad9e827e.png",
-    "static/media/hunger.48fb6739.png": "/Portfolio/static/media/hunger.48fb6739.png",
-    "static/media/shop.191405bd.png": "/Portfolio/static/media/shop.191405bd.png",
-    "static/media/todo.7aac7e19.png": "/Portfolio/static/media/todo.7aac7e19.png"
+    "static/media/ShopRedux.384e8d9e.png": "/Portfolio/static/media/ShopRedux.384e8d9e.png",
+    "static/media/Weather.4c368083.png": "/Portfolio/static/media/Weather.4c368083.png",
+    "static/media/about.5987a466.jpg": "/Portfolio/static/media/about.5987a466.jpg",
+    "static/media/about2.0696d5b1.jpg": "/Portfolio/static/media/about2.0696d5b1.jpg",
+    "static/media/about3.e7d3b200.jpg": "/Portfolio/static/media/about3.e7d3b200.jpg",
+    "static/media/conv.e5a32f16.png": "/Portfolio/static/media/conv.e5a32f16.png",
+    "static/media/hunger.a7f34fed.png": "/Portfolio/static/media/hunger.a7f34fed.png",
+    "static/media/shop.b4684ed4.png": "/Portfolio/static/media/shop.b4684ed4.png",
+    "static/media/todo.f0ad5af8.png": "/Portfolio/static/media/todo.f0ad5af8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c65a14fc.js",
     "static/js/2.ba3a4f8e.chunk.js",
-    "static/css/main.e4f9d672.chunk.css",
-    "static/js/main.94b8d5c8.chunk.js"
+    "static/css/main.5a8c04d2.chunk.css",
+    "static/js/main.7d5ba551.chunk.js"
   ]
 }
