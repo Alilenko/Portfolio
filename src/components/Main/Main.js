@@ -6,7 +6,7 @@ import './main.css';
 export const Main = () => {
     return (
         <div className='main'>
-            <img className='main__img' src={myPhoto} alt='my photo'/>
+            <img className='main__img' src={myPhoto} alt='Alina'/>
             <div className='main__content'>
                 <div className='about__content'>
             <h1 className='about_name'>Алина Павленко</h1>
@@ -19,6 +19,7 @@ export const Main = () => {
                     <a href='mailto:pavlenkoalina9694@gmail.com' className='about_link'><i className="far fa-envelope"></i></a>
                     <a href='https://www.instagram.com/alilenko__/' className='about_link'><i className="fab fa-instagram"></i></a>
                     <a href='https://t.me/Alilenko' className='about_link'><i className="far fa-paper-plane"></i></a>
+                    <a href='https://www.linkedin.com/in/alilenko' className='about_link'><i className="fab fa-linkedin"></i></a>
                 </div>
                 <div className='card-buttons main__button'>
                         <a href='https://drive.google.com/file/d/14NWOe0Yy1Wx3zRcWUACllwP75V9Y9_td/view?usp=sharing' className='link'>Резюме</a></div>

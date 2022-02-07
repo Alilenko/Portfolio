@@ -62,7 +62,6 @@ const project = [
 const Project = () => {
     return (
         <div className='skills'>
-               <h2 className='title'></h2>
                <div className='text'></div>
            <div className='card-row'>
                {

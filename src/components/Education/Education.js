@@ -4,7 +4,6 @@ import './education.css';
 const Education = () => {
     return (
         <div className='about'>
-            <h2 className='title'></h2>
             <div className='title_content'> 
             <div className='subtitle'>Обучение</div>
                     <div className='text'><span>2021</span><a href='https://www.udemy.com/course/javascript_full/'>Полный курс по JavaScript + React - Udemy</a></div>
