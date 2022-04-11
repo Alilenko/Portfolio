@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.5437d1b4.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a25b52be.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a25b52be.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.159b83ff.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.159b83ff.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c65a14fc.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c65a14fc.js.map",
     "static/js/2.ba3a4f8e.chunk.js": "/Portfolio/static/js/2.ba3a4f8e.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/about3.e7d3b200.jpg": "/Portfolio/static/media/about3.e7d3b200.jpg",
     "static/media/conv.e5a32f16.png": "/Portfolio/static/media/conv.e5a32f16.png",
     "static/media/hunger.a7f34fed.png": "/Portfolio/static/media/hunger.a7f34fed.png",
+    "static/media/movie-app.ab1f07d7.png": "/Portfolio/static/media/movie-app.ab1f07d7.png",
     "static/media/shop.b4684ed4.png": "/Portfolio/static/media/shop.b4684ed4.png",
     "static/media/spinner.32c9bfdc.svg": "/Portfolio/static/media/spinner.32c9bfdc.svg",
     "static/media/todo.f0ad5af8.png": "/Portfolio/static/media/todo.f0ad5af8.png"
@@ -24,6 +25,6 @@
     "static/js/runtime-main.c65a14fc.js",
     "static/js/2.ba3a4f8e.chunk.js",
     "static/css/main.5437d1b4.chunk.css",
-    "static/js/main.a25b52be.chunk.js"
+    "static/js/main.159b83ff.chunk.js"
   ]
 }
