@@ -6,9 +6,18 @@ import conv from '../../img/conv.png'
 import hunger from '../../img/hunger.png'
 import shopRedux from '../../img/ShopRedux.png'
 import weather from '../../img/Weather.png'
+import movie from '../../img/movie-app.png'
 import ProjectItem from '../ProjectItem/ProjectItem';
 
 const project = [
+    {
+        id: 7,
+        title: 'Movie App',
+        descr: 'React, Redux-Toolkit, React Hooks, React-router, Получение данных themoviedb. Авторизация Firebase. ',
+        linkShow: 'https://alilenko.github.io/MovieApp/',
+        linkCode: 'https://github.com/Alilenko/MovieApp',
+        img: movie
+    },
     {
         id: 6,
         title: 'Погода',
