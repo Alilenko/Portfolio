@@ -22,7 +22,7 @@ export const Main = () => {
                     <a href='https://www.linkedin.com/in/alilenko' className='about_link'><i className="fab fa-linkedin"></i></a>
                 </div>
                 <div className='card-buttons main__button'>
-                        <a href='https://drive.google.com/file/d/14NWOe0Yy1Wx3zRcWUACllwP75V9Y9_td/view?usp=sharing' className='link'>Резюме</a></div>
+                        <a href='https://drive.google.com/file/d/10ZQRyLImziSsyxFbHSkiN-0g8itFlbjM/view?usp=sharing' className='link'>Резюме</a></div>
                 </div>
             </div>
         </div>
