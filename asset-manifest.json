@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.5437d1b4.chunk.css",
-    "main.js": "/Portfolio/static/js/main.251e3949.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.251e3949.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.82610bcd.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.82610bcd.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c65a14fc.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c65a14fc.js.map",
     "static/js/2.ba3a4f8e.chunk.js": "/Portfolio/static/js/2.ba3a4f8e.chunk.js",
@@ -13,6 +13,7 @@
     "static/media/2.3368244f.jpg": "/Portfolio/static/media/2.3368244f.jpg",
     "static/media/ShopRedux.384e8d9e.png": "/Portfolio/static/media/ShopRedux.384e8d9e.png",
     "static/media/Weather.4c368083.png": "/Portfolio/static/media/Weather.4c368083.png",
+    "static/media/YankiShop.f3958dc5.png": "/Portfolio/static/media/YankiShop.f3958dc5.png",
     "static/media/about3.e7d3b200.jpg": "/Portfolio/static/media/about3.e7d3b200.jpg",
     "static/media/conv.e5a32f16.png": "/Portfolio/static/media/conv.e5a32f16.png",
     "static/media/hunger.a7f34fed.png": "/Portfolio/static/media/hunger.a7f34fed.png",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.c65a14fc.js",
     "static/js/2.ba3a4f8e.chunk.js",
     "static/css/main.5437d1b4.chunk.css",
-    "static/js/main.251e3949.chunk.js"
+    "static/js/main.82610bcd.chunk.js"
   ]
 }
