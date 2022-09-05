@@ -1,27 +1,32 @@
-import React from 'react'
-import './about.css';
-import about3 from '../../img/about3.jpg'
-
+import React, { useEffect } from "react";
+import about3 from "../../img/My-photo.jpg";
+import "./about.css";
 
 const About = () => {
-    return (
-        <div className='about'>
-            <div className='text'> 
-            <div className='text_content'>
-                <div className='about__content'>
-                <div className='about__subtitle'>Обо мне</div>
-                    <p>Я очень ответственный человек, и всегда стараюсь выполнять работу качественно и с максимальной отдачей. 
-                    Я люблю учится, Я получаю огромное удовольствие когда изучаю новые интересные сферы для меня.
-                    Всегда стараюсь выполнять свои обещания.
-                    Я очень спокойный, уравновешенный, стрессоустойчивый и неконфликтный человек.</p> 
-                </div>  
-                <img className='about__img' src={about3 } alt='about'/></div>
-  
-            </div>
-            </div>
-    )
-}
+  useEffect(() => {
+    document.documentElement.scrollTop = 0;
+    document.body.style.height = "100vh";
+  }, []);
 
+  return (
+    <div className="about">
+      <div className="text">
+        <div className="text_content">
+          <div className="about__content">
+            <h3 className="about__subtitle">Про мене</h3>
+            <p>
+              Я дуже відповідальна людина, і завжди намагаюся виконувати роботу
+              якісно та з максимальною віддачею. Я люблю вчитися, Я отримую
+              велике насолоду коли вивчаю нові цікаві сфери для мене. Завжди
+              намагаюсь виконувати свої обіцянки. Я дуже спокійний,
+              врівноважена, стресостійка і неконфліктна людина.
+            </p>
+          </div>
+          <img className="about__img" src={about3} alt="about" />
+        </div>
+      </div>
+    </div>
+  );
+};
 
-
-export default About
+export default About;
