@@ -9,7 +9,7 @@
     --gutter: 30px;
     --side-small: 26;
     --side-big: 36;
-    --depth: 2600px;
+    --depth: 3000px;
     --transition: .75s cubic-bezier(.075, .5, 0, 1)
 }
 body{
@@ -39,6 +39,8 @@ body{
     transition: var(--transition), opacity .75s ease;
     will-change: transform;
     transform-style: preserve-3d;
+    -webkit-transition: all 0s ease; 
+    
 }
 h1, h2, h3, h4{
     font-weight: 100;
