@@ -74,7 +74,7 @@ export const Main = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1L4w9t24au5D9cy-PN8v1EP200A5NpRnU/view?usp=sharing"
+              href="https://drive.google.com/file/d/1AsWzriBHFfCmvLaSTf4_JeXjK1MllCDS/view?usp=sharing"
               className="link"
             >
               Резюме

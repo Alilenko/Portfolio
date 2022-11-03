@@ -6,12 +6,17 @@ import movie from "../../img/movie-app.png";
 import weather from "../../img/Weather.png";
 import todo from "../../img/todo.png";
 import conv from "../../img/conv.png";
+import yt from "../../img/yt-clone.png";
+
 import "./AnimationProject.css";
 
 const AnimationProject = () => {
   let zSpacing = -1000,
     lastPos = zSpacing / 5,
     zVals = [];
+  const ref01 = useRef(0);
+  const ref02 = useRef(0);
+  const ref03 = useRef(0);
   const ref0 = useRef(0);
   const ref1 = useRef(0);
   const ref2 = useRef(0);
@@ -29,6 +34,18 @@ const AnimationProject = () => {
   const ref14 = useRef(0);
 
   const frames = [
+    {
+      paragraph: {
+        h3: "Youtube-clone",
+        text: "React, Redux-Toolkit: RTK Query, React Hooks, React-router, Mui. Данні: RapidApi. ",
+      },
+      ref: ref01,
+      textPos: "left",
+      linkShow: "https://alilenko.github.io/youtube_clone",
+      linkCode: "https://github.com/Alilenko/youtube_clone",
+    },
+    { img: yt, ref: ref02, position: "right", bgFrame: true },
+    { ref: ref03 },
     {
       paragraph: {
         h3: "Movie App",
@@ -93,7 +110,7 @@ const AnimationProject = () => {
 
   useEffect(() => {
     const getScroll = () => {
-      document.body.style.height = "3400px";
+      document.body.style.height = "4100px";
       let top = document.documentElement.scrollTop,
         delta = lastPos - top;
       lastPos = top;
@@ -102,6 +119,9 @@ const AnimationProject = () => {
         zVals.push(i * zSpacing + zSpacing);
         zVals[i] += delta * -5.5;
         let refArr = [
+          ref01,
+          ref02,
+          ref03,
           ref0,
           ref1,
           ref2,
