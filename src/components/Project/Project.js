@@ -8,9 +8,19 @@ import shopRedux from "../../img/ShopRedux.png";
 import weather from "../../img/Weather.png";
 import movie from "../../img/movie-app.png";
 import yankiShop from "../../img/YankiShop.png";
+import yt from "../../img/yt-clone.png";
 import ProjectItem from "../ProjectItem/ProjectItem";
 
 const project = [
+  {
+    id: 9,
+    title: "Youtube-clone",
+    descr:
+      "React, Redux-Toolkit: RTK Query, React Hooks, React-router, Mui. Данні: RapidApi.",
+    linkShow: "https://alilenko.github.io/youtube_clone",
+    linkCode: "https://github.com/Alilenko/youtube_clone",
+    img: yt,
+  },
   {
     id: 8,
     title: "Інтернет магазин",

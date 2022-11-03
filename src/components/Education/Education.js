@@ -16,11 +16,22 @@ const Education = () => {
           <a
             target="_blank"
             rel="noreferrer"
+            href="https://www.udemy.com/course/complete-guide-to-redux-toolkit-rtk-query-with-react-js/"
+          >
+            Complete Guide to Redux-Toolkit RTK Query with React JS - Udemy
+          </a>
+        </div>
+        <div className="text">
+          <span>2022 </span>
+          <a
+            target="_blank"
+            rel="noreferrer"
             href="https://www.udemy.com/course/complete-react-native-mobile-development-zero-to-mastery-with-hooks/"
           >
             Complete React Native in 2022 - Udemy
           </a>
         </div>
+
         <div className="text">
           <span>2021 </span>
           <a
