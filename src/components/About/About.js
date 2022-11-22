@@ -20,7 +20,6 @@ const AboutImg = ({ setLoading, loading }) => {
 
 const About = () => {
   const [loading, setLoading] = useState(false);
-  console.log(loading);
 
   useEffect(() => {
     document.documentElement.scrollTop = 0;
