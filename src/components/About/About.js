@@ -1,12 +1,33 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import about3 from "../../img/My-photo.jpg";
+import Spinner from "../Spinner/Spinner";
 import "./about.css";
 
+const AboutImg = ({ setLoading, loading }) => {
+  useEffect(() => {
+    setLoading(false);
+  }, [loading]);
+
+  return (
+    <img
+      className="about__img"
+      src={about3}
+      alt="about"
+      onLoad={() => setLoading(false)}
+    />
+  );
+};
+
 const About = () => {
+  const [loading, setLoading] = useState(false);
+
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.body.style.height = "100vh";
   }, []);
+  useEffect(() => {}, [loading]);
+
+  if (loading) return <Spinner />;
 
   return (
     <div className="about">
@@ -22,7 +43,7 @@ const About = () => {
               врівноважена, стресостійка і неконфліктна людина.
             </p>
           </div>
-          <img className="about__img" src={about3} alt="about" />
+          <AboutImg setLoading={setLoading} loading={loading} />
         </div>
       </div>
     </div>
