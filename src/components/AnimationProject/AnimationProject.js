@@ -7,6 +7,7 @@ import weather from "../../img/Weather.png";
 import todo from "../../img/todo.png";
 import conv from "../../img/conv.png";
 import yt from "../../img/yt-clone.png";
+import education from "../../img/education_platform.png";
 
 import "./AnimationProject.css";
 
@@ -37,7 +38,7 @@ const AnimationProject = () => {
     {
       paragraph: {
         h3: "Youtube-clone",
-        text: "React, Redux-Toolkit: RTK Query, React Hooks, React-router, Mui. Данні: RapidApi. ",
+        text: "React, Redux-Toolkit: RTK Query, React Hooks, React-router, Mui. Данні: RapidApi. Фільтрація по категоріями, перегляд відео та інформації про канал, пошук.",
       },
       ref: ref01,
       textPos: "left",
@@ -48,15 +49,15 @@ const AnimationProject = () => {
     { ref: ref03 },
     {
       paragraph: {
-        h3: "Movie App",
-        text: "React, Redux-Toolkit, React Hooks, React-router, Данні: themoviedb. Авторизація Firebase. ",
+        h3: "Платформа для навчання",
+        text: "React, Redux-Toolkit, React Hooks, React-router, styled-components, react-player, moment. Данні: https://github.com/Alilenko/education_platform_server. Реалізованно календар з розкладом занять на місяць та день та сторінка з відео занятями.",
       },
       ref: ref0,
       textPos: "right",
-      linkShow: "https://alilenko.github.io/MovieApp/",
-      linkCode: "https://github.com/Alilenko/MovieApp",
+      linkShow: "https://alilenko.github.io/education_platform/",
+      linkCode: "https://github.com/Alilenko/education_platform",
     },
-    { img: movie, ref: ref1, position: "left", bgFrame: true },
+    { img: education, ref: ref1, position: "left", bgFrame: true },
     { ref: ref2 },
     {
       paragraph: {
@@ -84,25 +85,25 @@ const AnimationProject = () => {
     { ref: ref8 },
     {
       paragraph: {
-        h3: "Список справ",
-        text: "React+Redux. Додаток у якому реалізовано додавання та видалення записів, фільтрація, пошук.",
+        h3: "Movie App",
+        text: "React, Redux-Toolkit, React Hooks, React-router, Данні: themoviedb. Авторизація Firebase.  Каталог фільмів та серіалів, пошук.",
       },
       ref: ref9,
       textPos: "left",
-      linkShow: "https://alilenko.github.io/TodoList/",
-      linkCode: "https://github.com/Alilenko/TodoList",
+      linkShow: "https://alilenko.github.io/MovieApp/",
+      linkCode: "https://github.com/Alilenko/MovieApp",
     },
-    { img: todo, ref: ref10, position: "right", bgFrame: true },
+    { img: movie, ref: ref10, position: "right", bgFrame: true },
     { ref: ref11 },
     {
       paragraph: {
-        h3: "Конвертер валют",
-        text: "Данні: bank.gov.ua. Отримання значення від користувача та конвертація у чотири валюти.",
+        h3: "Список справ",
+        text: "React+Redux. Додаток у якому реалізовано додавання та видалення записів, фільтрація, пошук.",
       },
       ref: ref12,
       textPos: "right",
-      linkShow: "https://codepen.io/Alilenko/pen/qBXXrNv",
-      linkCode: "https://github.com/Alilenko/converter",
+      linkShow: "https://alilenko.github.io/TodoList/",
+      linkCode: "https://github.com/Alilenko/TodoList",
     },
     { img: conv, ref: ref13, position: "left", bgFrame: true },
     { ref: ref14, btn: "Більше", to: "/more-project" },

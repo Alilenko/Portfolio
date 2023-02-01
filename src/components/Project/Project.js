@@ -9,6 +9,7 @@ import weather from "../../img/Weather.png";
 import movie from "../../img/movie-app.png";
 import yankiShop from "../../img/YankiShop.png";
 import yt from "../../img/yt-clone.png";
+import education from "../../img/education_platform.png";
 import ProjectItem from "../ProjectItem/ProjectItem";
 
 const project = [
@@ -16,7 +17,7 @@ const project = [
     id: 9,
     title: "Youtube-clone",
     descr:
-      "React, Redux-Toolkit: RTK Query, React Hooks, React-router, Mui. Данні: RapidApi.",
+      "React, Redux-Toolkit: RTK Query, React Hooks, React-router, Mui, react-player, timeago.js. Данні: RapidApi. Фільтрація по категоріями, перегляд відео та інформації про канал, пошук. ",
     linkShow: "https://alilenko.github.io/youtube_clone",
     linkCode: "https://github.com/Alilenko/youtube_clone",
     img: yt,
@@ -31,10 +32,19 @@ const project = [
     img: yankiShop,
   },
   {
+    id: 10,
+    title: "Education Platform",
+    descr:
+      "React, Redux-Toolkit, React Hooks, React-router, styled-components, react-player, moment. Данні: https://github.com/Alilenko/education_platform_server. Реалізованно календар з розкладом занять на місяць та день та сторінка з відео занятями.",
+    linkShow: "https://alilenko.github.io/education_platform/",
+    linkCode: "https://github.com/Alilenko/education_platform",
+    img: education,
+  },
+  {
     id: 7,
     title: "Movie App",
     descr:
-      "React, Redux-Toolkit, React Hooks, React-router, Данні: themoviedb. Авторизація Firebase. ",
+      "React, Redux-Toolkit, React Hooks, React-router, Данні: themoviedb. Авторизація Firebase. Каталог фільмів та серіалів, пошук.",
     linkShow: "https://alilenko.github.io/MovieApp/",
     linkCode: "https://github.com/Alilenko/MovieApp",
     img: movie,
@@ -88,7 +98,7 @@ const project = [
     id: 5,
     title: "Сторінка ресторану",
     descr:
-      "HTML, CSS, JavaScript. Адаптивная верстка. Фіксованний header який зникає при скролі вниз и з'являється при прокрутці вверх. Слайдер за допомогою біблиотеки Swiper. При клике на кнопки навигации плавная прокрутка к якорю. Галерея. Додана Google карта",
+      "HTML, CSS, JavaScript, Swiper Адаптивна верстка, Галерея, Google maps",
     linkShow: "https://alilenko.github.io/Restaurant/",
     linkCode: "https://github.com/Alilenko/Restaurant/tree/main",
     img: hunger,
