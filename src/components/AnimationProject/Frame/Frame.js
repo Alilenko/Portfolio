@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Frame = ({ item }) => {
+const Frame = ({ item, itemsRef, i }) => {
   const {
     text,
     img,
-    ref,
     position,
     paragraph,
     textPos,
@@ -40,7 +39,7 @@ const Frame = ({ item }) => {
       className={`frame ${bgFrame ? bgColor : null} ${
         textPos ? textPosition : null
       }`}
-      ref={ref}
+      ref={(el) => (itemsRef.current[i] = el)}
     >
       <div className="frame-content">
         {text ? <h2>{text}</h2> : null}

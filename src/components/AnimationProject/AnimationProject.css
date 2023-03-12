@@ -34,11 +34,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: var(--transition), opacity 0.75s ease;
   will-change: transform;
   transform-style: preserve-3d;
   -webkit-transition: all 0s ease;
 }
+
 h1,
 h2,
 h3,

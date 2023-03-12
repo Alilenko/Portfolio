@@ -4,7 +4,6 @@ import Frame from "./Frame/Frame";
 import yanki from "../../img/YankiShop.png";
 import movie from "../../img/movie-app.png";
 import weather from "../../img/Weather.png";
-import todo from "../../img/todo.png";
 import conv from "../../img/conv.png";
 import yt from "../../img/yt-clone.png";
 import education from "../../img/education_platform.png";
@@ -15,24 +14,11 @@ const AnimationProject = () => {
   let zSpacing = -1000,
     lastPos = zSpacing / 5,
     zVals = [];
-  const ref01 = useRef(0);
-  const ref02 = useRef(0);
-  const ref03 = useRef(0);
-  const ref0 = useRef(0);
-  const ref1 = useRef(0);
-  const ref2 = useRef(0);
-  const ref3 = useRef(0);
-  const ref4 = useRef(0);
-  const ref5 = useRef(0);
-  const ref6 = useRef(0);
-  const ref7 = useRef(0);
-  const ref8 = useRef(0);
-  const ref9 = useRef(0);
-  const ref10 = useRef(0);
-  const ref11 = useRef(0);
-  const ref12 = useRef(0);
-  const ref13 = useRef(0);
-  const ref14 = useRef(0);
+  const itemsRef = useRef([]);
+
+  const setRef = (ref) => {
+    itemsRef.current = itemsRef.push(ref);
+  };
 
   const frames = [
     {
@@ -40,73 +26,67 @@ const AnimationProject = () => {
         h3: "Youtube-clone",
         text: "React, Redux-Toolkit: RTK Query, React Hooks, React-router, Mui. Данні: RapidApi. Фільтрація по категоріями, перегляд відео та інформації про канал, пошук.",
       },
-      ref: ref01,
       textPos: "left",
       linkShow: "https://alilenko.github.io/youtube_clone",
       linkCode: "https://github.com/Alilenko/youtube_clone",
     },
-    { img: yt, ref: ref02, position: "right", bgFrame: true },
-    { ref: ref03 },
+    { img: yt, position: "right", bgFrame: true },
+    {},
     {
       paragraph: {
         h3: "Платформа для навчання",
         text: "React, Redux-Toolkit, React Hooks, React-router, styled-components, react-player, moment. Данні: https://github.com/Alilenko/education_platform_server. Реалізованно календар з розкладом занять на місяць та день та сторінка з відео занятями.",
       },
-      ref: ref0,
       textPos: "right",
       linkShow: "https://alilenko.github.io/education_platform/",
       linkCode: "https://github.com/Alilenko/education_platform",
     },
-    { img: education, ref: ref1, position: "left", bgFrame: true },
-    { ref: ref2 },
+    { img: education, position: "left", bgFrame: true },
+    {},
     {
       paragraph: {
         h3: "Інтернет магазин",
         text: "React. Redux-Toolkit, React-router-dom, i18next, Formik, Firebase/firestore, React-icons, localStorage, зміна мови додатку за допомогою бібліотеки i18next, додавання товарів в корзину, оформленя замовлення і відправка данних про замовлення firestore, додавання товарів в список обраних і збереження/отримання списку из localStorage, фільтрація товарів за категоріями.",
       },
-      ref: ref3,
       textPos: "left",
       linkShow: "https://alilenko.github.io/YankiShop/",
       linkCode: "https://github.com/Alilenko/YankiShop",
     },
-    { img: yanki, ref: ref4, position: "right", bgFrame: true },
-    { ref: ref5 },
+    { img: yanki, position: "right", bgFrame: true },
+    {},
     {
       paragraph: {
         h3: "Погода",
         text: "React+Redux Toolkit, TypeScript. Данні: openweathermap.org. Реалізовано отримання поточних даних погоди та даних прогнозованих на 7 днів",
       },
-      ref: ref6,
       textPos: "right",
       linkShow: "https://alilenko-weather.herokuapp.com/Weather",
       linkCode: "https://github.com/Alilenko/Weather",
     },
-    { img: weather, ref: ref7, position: "left", bgFrame: true },
-    { ref: ref8 },
+    { img: weather, position: "left", bgFrame: true },
+    {},
     {
       paragraph: {
         h3: "Movie App",
         text: "React, Redux-Toolkit, React Hooks, React-router, Данні: themoviedb. Авторизація Firebase.  Каталог фільмів та серіалів, пошук.",
       },
-      ref: ref9,
       textPos: "left",
       linkShow: "https://alilenko.github.io/MovieApp/",
       linkCode: "https://github.com/Alilenko/MovieApp",
     },
-    { img: movie, ref: ref10, position: "right", bgFrame: true },
-    { ref: ref11 },
+    { img: movie, position: "right", bgFrame: true },
+    {},
     {
       paragraph: {
         h3: "Список справ",
         text: "React+Redux. Додаток у якому реалізовано додавання та видалення записів, фільтрація, пошук.",
       },
-      ref: ref12,
       textPos: "right",
       linkShow: "https://alilenko.github.io/TodoList/",
       linkCode: "https://github.com/Alilenko/TodoList",
     },
-    { img: conv, ref: ref13, position: "left", bgFrame: true },
-    { ref: ref14, btn: "Більше", to: "/more-project" },
+    { img: conv, position: "left", bgFrame: true },
+    { btn: "Більше", to: "/more-project" },
   ];
 
   useEffect(() => {
@@ -119,34 +99,13 @@ const AnimationProject = () => {
       frames.forEach(function (n, i) {
         zVals.push(i * zSpacing + zSpacing);
         zVals[i] += delta * -5.5;
-        let refArr = [
-          ref01,
-          ref02,
-          ref03,
-          ref0,
-          ref1,
-          ref2,
-          ref3,
-          ref4,
-          ref5,
-          ref6,
-          ref7,
-          ref8,
-          ref9,
-          ref10,
-          ref11,
-          ref12,
-          ref13,
-          ref14,
-        ];
         let transform = `translateZ(${zVals[i]}px)`,
           opacity = zVals[i] < Math.abs(zSpacing) / 1.8 ? 1 : 0;
-
-        refArr[i].current.setAttribute(
+        itemsRef.current[i].setAttribute(
           "style",
           `transform: ${transform}; opacity: ${opacity}; visibility: ${
             opacity === 0 ? "hidden" : "visible"
-          }`
+          }; transition: visibility 0.5s ease, opacity 0.5s ease;`
         );
       });
     };
@@ -160,7 +119,7 @@ const AnimationProject = () => {
       <div className="container">
         <section className="gallery">
           {frames.map((item, i) => (
-            <Frame key={i} item={item} />
+            <Frame key={i} i={i} item={item} itemsRef={itemsRef} />
           ))}
         </section>
       </div>
