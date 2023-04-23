@@ -16,7 +16,6 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .card {
-  width: 300px;
   text-align: center;
   margin: 20px auto;
   border: 2px solid #181818;
@@ -37,7 +36,7 @@
   height: 200px;
 }
 .card-image {
-  max-width: 300px;
+  //max-width: 300px;
   height: 200px;
 }
 
@@ -63,6 +62,7 @@
 }
 .card-descr {
   word-wrap: break-word;
+  font-size: 16px;
 }
 .card-buttons {
   display: flex;

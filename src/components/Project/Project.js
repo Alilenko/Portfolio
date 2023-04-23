@@ -10,9 +10,38 @@ import movie from "../../img/movie-app.png";
 import yankiShop from "../../img/YankiShop.png";
 import yt from "../../img/yt-clone.png";
 import education from "../../img/education_platform.png";
+import drivers from "../../img/Driwers.png";
+import tracker from "../../img/Tracker.png";
 import ProjectItem from "../ProjectItem/ProjectItem";
 
 const project = [
+  {
+    id: 15,
+    title: "Drivers. Додаток бронювання поїздок",
+    descr:
+      "React, React Router Dom v6, Firebase v9, Firestore, Bootstap-4. Сторінка реєстрації / авторизації з підключенням Firebase Authentication (реєстрація через email, google, номер телефону). Дані записуються у Firestore. Головний екран з майбутніми поїздками. Можливість бронювання поїздок користувачем. Сторінка редагування профілю.Сторінка створення нової подорожі. Сторінка адміністратора, на якій можна змінювати ролі користувачів і видаляти поїздки. Логін адміністратора: test@gmail.com, пароль testtest.",
+    linkShow: "https://alilenko.github.io/drivers/",
+    linkCode: "https://github.com/Alilenko/drivers",
+    img: drivers,
+  },
+  {
+    id: 10,
+    title: "Education Platform",
+    descr:
+      "React, Redux-Toolkit, React Hooks, React-router, styled-components, react-player, moment. Реалізованно календар з розкладом занять на місяць та день та сторінка з відео занятями.",
+    linkShow: "https://alilenko.github.io/education_platform/",
+    linkCode: "https://github.com/Alilenko/education_platform",
+    img: education,
+  },
+  {
+    id: 16,
+    title: "Tracker",
+    descr:
+      "React, Redux-Toolkit, moment. Трекер часу. Продовжує рахувати час навіть після закриття сторінки",
+    linkShow: "https://alilenko.github.io/Tracker/",
+    linkCode: "https://github.com/Alilenko/Tracker",
+    img: tracker,
+  },
   {
     id: 9,
     title: "Youtube-clone",
@@ -22,6 +51,7 @@ const project = [
     linkCode: "https://github.com/Alilenko/youtube_clone",
     img: yt,
   },
+
   {
     id: 8,
     title: "Інтернет магазин",
@@ -31,15 +61,7 @@ const project = [
     linkCode: "https://github.com/Alilenko/YankiShop",
     img: yankiShop,
   },
-  {
-    id: 10,
-    title: "Education Platform",
-    descr:
-      "React, Redux-Toolkit, React Hooks, React-router, styled-components, react-player, moment. Данні: https://github.com/Alilenko/education_platform_server. Реалізованно календар з розкладом занять на місяць та день та сторінка з відео занятями.",
-    linkShow: "https://alilenko.github.io/education_platform/",
-    linkCode: "https://github.com/Alilenko/education_platform",
-    img: education,
-  },
+
   {
     id: 7,
     title: "Movie App",

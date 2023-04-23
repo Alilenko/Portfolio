@@ -104,7 +104,7 @@ h4 {
   background-color: rgba(255, 255, 255, 0.215);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .frame-media_left {
     right: 0;
     top: calc(var(--side-big) / 2 * var(--index) + var(--gutter));

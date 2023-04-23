@@ -4,9 +4,9 @@ import Frame from "./Frame/Frame";
 import yanki from "../../img/YankiShop.png";
 import movie from "../../img/movie-app.png";
 import weather from "../../img/Weather.png";
-import conv from "../../img/conv.png";
 import yt from "../../img/yt-clone.png";
 import education from "../../img/education_platform.png";
+import drivers from "../../img/Driwers.png";
 
 import "./AnimationProject.css";
 
@@ -23,25 +23,36 @@ const AnimationProject = () => {
   const frames = [
     {
       paragraph: {
-        h3: "Youtube-clone",
-        text: "React, Redux-Toolkit: RTK Query, React Hooks, React-router, Mui. Данні: RapidApi. Фільтрація по категоріями, перегляд відео та інформації про канал, пошук.",
+        h3: "Drivers",
+        text: "React, React Router Dom v6, Firebase v9, Firestore, Bootstap-4. Сторінка реєстрації / авторизації з підключенням Firebase Authentication (реєстрація через email, google, номер телефону). Дані записуються у Firestore. Головний екран з майбутніми поїздками. Можливість бронювання поїздок користувачем. Сторінка редагування профілю.Сторінка створення нової подорожі. Сторінка адміністратора, на якій можна змінювати ролі користувачів і видаляти поїздки. Логін адміністратора: test@gmail.com, пароль testtest.",
       },
-      textPos: "left",
-      linkShow: "https://alilenko.github.io/youtube_clone",
-      linkCode: "https://github.com/Alilenko/youtube_clone",
+      textPos: "right",
+      linkShow: "https://alilenko.github.io/drivers/",
+      linkCode: "https://github.com/Alilenko/drivers",
     },
-    { img: yt, position: "right", bgFrame: true },
+    { img: drivers, position: "left", bgFrame: true },
     {},
     {
       paragraph: {
         h3: "Платформа для навчання",
-        text: "React, Redux-Toolkit, React Hooks, React-router, styled-components, react-player, moment. Данні: https://github.com/Alilenko/education_platform_server. Реалізованно календар з розкладом занять на місяць та день та сторінка з відео занятями.",
+        text: "React, Redux-Toolkit, React Hooks, React-router, styled-components, react-player, moment. Реалізованно календар з розкладом занять на місяць та день та сторінка з відео занятями.",
       },
-      textPos: "right",
+      textPos: "left",
       linkShow: "https://alilenko.github.io/education_platform/",
       linkCode: "https://github.com/Alilenko/education_platform",
     },
-    { img: education, position: "left", bgFrame: true },
+    { img: education, position: "right", bgFrame: true },
+    {},
+    {
+      paragraph: {
+        h3: "Youtube-clone",
+        text: "React, Redux-Toolkit: RTK Query, React Hooks, React-router, Mui. Данні: RapidApi. Фільтрація по категоріями, перегляд відео та інформації про канал, пошук.",
+      },
+      textPos: "right",
+      linkShow: "https://alilenko.github.io/youtube_clone",
+      linkCode: "https://github.com/Alilenko/youtube_clone",
+    },
+    { img: yt, position: "left", bgFrame: true },
     {},
     {
       paragraph: {
@@ -75,17 +86,6 @@ const AnimationProject = () => {
       linkCode: "https://github.com/Alilenko/MovieApp",
     },
     { img: movie, position: "right", bgFrame: true },
-    {},
-    {
-      paragraph: {
-        h3: "Список справ",
-        text: "React+Redux. Додаток у якому реалізовано додавання та видалення записів, фільтрація, пошук.",
-      },
-      textPos: "right",
-      linkShow: "https://alilenko.github.io/TodoList/",
-      linkCode: "https://github.com/Alilenko/TodoList",
-    },
-    { img: conv, position: "left", bgFrame: true },
     { btn: "Більше", to: "/more-project" },
   ];
 
