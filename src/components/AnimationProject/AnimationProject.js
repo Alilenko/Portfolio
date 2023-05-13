@@ -24,7 +24,7 @@ const AnimationProject = () => {
     {
       paragraph: {
         h3: "Drivers",
-        text: "React, React Router Dom v6, Firebase v9, Firestore, Bootstap-4. Сторінка реєстрації / авторизації з підключенням Firebase Authentication (реєстрація через email, google, номер телефону). Дані записуються у Firestore. Головний екран з майбутніми поїздками. Можливість бронювання поїздок користувачем. Сторінка редагування профілю.Сторінка створення нової подорожі. Сторінка адміністратора, на якій можна змінювати ролі користувачів і видаляти поїздки. Логін адміністратора: test@gmail.com, пароль testtest.",
+        text: "React, React Router Dom v6, Firebase v9, Firestore, Bootstap-4. Реєстрація/авторизації Firebase Authentication(email, google, номер телефону). Сторінка з майбутніми поїздками, бронювання поїздок користувачем, редагування профілю, створення нової подорожі. Сторінка адміністратора, де можна змінювати ролі користувачів і видаляти поїздки. Логін адміністратора: test@gmail.com, пароль testtest.",
       },
       textPos: "right",
       linkShow: "https://alilenko.github.io/drivers/",
@@ -71,7 +71,7 @@ const AnimationProject = () => {
         text: "React+Redux Toolkit, TypeScript. Данні: openweathermap.org. Реалізовано отримання поточних даних погоди та даних прогнозованих на 7 днів",
       },
       textPos: "right",
-      linkShow: "https://alilenko-weather.herokuapp.com/Weather",
+      linkShow: "https://alilenko.github.io/Weather/",
       linkCode: "https://github.com/Alilenko/Weather",
     },
     { img: weather, position: "left", bgFrame: true },

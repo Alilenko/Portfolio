@@ -76,7 +76,7 @@ const project = [
     title: "Погода",
     descr:
       "React+Redux Toolkit, TypeScript. Данні: openweathermap.org. Реалізовано отримання поточних даних погоди та даних прогнозованих на 7 днів",
-    linkShow: "https://alilenko-weather.herokuapp.com/Weather",
+    linkShow: "https://alilenko.github.io/Weather/",
     linkCode: "https://github.com/Alilenko/Weather",
     img: weather,
   },
