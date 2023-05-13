@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0c212d09.chunk.css",
-    "main.js": "/Portfolio/static/js/main.14748090.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.14748090.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.4c69e60f.chunk.css",
+    "main.js": "/Portfolio/static/js/main.bcb6b34f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.bcb6b34f.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c65a14fc.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c65a14fc.js.map",
     "static/js/2.e785a307.chunk.js": "/Portfolio/static/js/2.e785a307.chunk.js",
     "static/js/2.e785a307.chunk.js.map": "/Portfolio/static/js/2.e785a307.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.0c212d09.chunk.css.map": "/Portfolio/static/css/main.0c212d09.chunk.css.map",
+    "static/css/main.4c69e60f.chunk.css.map": "/Portfolio/static/css/main.4c69e60f.chunk.css.map",
     "static/js/2.e785a307.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e785a307.chunk.js.LICENSE.txt",
     "static/media/2.3368244f.jpg": "/Portfolio/static/media/2.3368244f.jpg",
     "static/media/Driwers.89985186.png": "/Portfolio/static/media/Driwers.89985186.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.c65a14fc.js",
     "static/js/2.e785a307.chunk.js",
-    "static/css/main.0c212d09.chunk.css",
-    "static/js/main.14748090.chunk.js"
+    "static/css/main.4c69e60f.chunk.css",
+    "static/js/main.bcb6b34f.chunk.js"
   ]
 }
